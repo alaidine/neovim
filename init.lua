@@ -1,7 +1,7 @@
 require("alaidine.plugins")
 require("alaidine.base")
 require("alaidine.keymaps")
-require("alaidine.colors")
+require("alaidine.colors.onedark")
 require("alaidine.lsp.mason")
 require("alaidine.lsp.lspconfig")
 require("alaidine.lsp.lspsaga")
