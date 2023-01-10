@@ -6,8 +6,8 @@ require("alaidine.lsp.lspconfig")
 require("alaidine.lsp.lspsaga")
 require("alaidine.lsp.null-ls")
 
-function set_colors(color)
+function Setcolors(color)
 	return require("alaidine.colors." .. color)
 end
 
-set_colors("gruvbox")
+Setcolors("gruvbox")
