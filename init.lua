@@ -10,4 +10,4 @@ function set_colors(color)
 	return require("alaidine.colors." .. color)
 end
 
-set_colors("onedark")
+set_colors("gruvbox")
