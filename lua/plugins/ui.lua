@@ -89,6 +89,9 @@ return {
 
     {
         "NvChad/nvterm",
+        config = function()
+            require("nvterm").setup()
+        end,
     },
 
     "kdheepak/lazygit.nvim",
@@ -164,9 +167,5 @@ return {
                 -- Configuration here, or leave empty to use defaults
             })
         end,
-    },
-
-    {
-        "eandrju/cellular-automaton.nvim",
     },
 }
