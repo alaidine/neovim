@@ -3,4 +3,3 @@ if vim.loader then
 end
 
 require("config.lazy")
-require("treesitter-context").toggle()
